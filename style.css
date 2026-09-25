@@ -1,0 +1,103 @@
+.Navbar{
+    height:10vh;
+    background:black;
+    display:flex;
+    align-items:center;
+    justify-content: center;}
+.parentdiv{
+    width:50%;
+    height:fit-content;
+    position:relative;
+    }
+.inputfield{
+    width:100%;
+    border-radius:25px;
+    padding: 10px;
+}
+.searchicon{
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+.searchicon:hover{
+    cursor:pointer;
+}
+.mainparent{
+    height:90vh;
+}
+.leftdiv{
+    width:30%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.todaytemp{
+    background-color: rgba(27, 25, 25, 0.5);
+    width:fit-content;
+    padding:15px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.leftchild{
+    background:rgba(27, 25, 25, 0.5);
+    width:85%;
+    height:40vh;
+    margin:auto;
+    border-radius:15px;
+    backdrop-filter: blur(15px);
+}
+.rightdiv{
+    width:70%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.rightchild{
+   height:27vh;
+   width:100%;
+}
+.extraone{
+    background-color:rgba(27, 25, 25, 0.5);
+    padding: 4% 3%;
+    border-radius:15px;
+    width:fit-content;
+    align-items:center;
+}
+.extratwo{
+    background-color: rgba(27, 25, 25, 0.5);
+    height:27vh;
+    width:45%;
+    border-radius:15px;   
+}
+.rowtwoDiv{
+    background-color: rgba(27, 25, 25, 0.5);
+    backdrop-filter: blur(15px);
+    height:85%;
+    width:45%;
+    border-radius: 15px;
+}
+#frs{
+    font-size:larger;
+}
+#comingdays{
+    font-size:xx-large;
+}
+body{
+    background-image: url("wheatherimg.jpeg");
+    background-size:cover;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+.currentTempdiv h6{
+    font-size:larger;
+}
+#cityname{
+    font-size:xx-large;
+}
